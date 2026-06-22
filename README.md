@@ -28,6 +28,5 @@ App available at `http://localhost:4200`
 
 ## Workflow
 
-- `develop` → staging (auto-deploy)
-- `main` → production (requires manual approval)
-- All merges via Pull Request
+- All feature branches merge into `main` via Pull Request
+- `main` deploys to both staging and production
